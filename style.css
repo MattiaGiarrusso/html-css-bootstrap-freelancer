@@ -9,3 +9,23 @@
 .ms-bg-lightgreen {
     background-color: #1ABC9C;
 }
+
+.ms-bg-green {
+    background-color: #3A546D;
+}
+
+/*------------------
+    TYPOGRAPHY       
+-------------------*/
+
+.ms-style-link {
+    list-style: none;
+}
+
+/*------------------
+    TYPOGRAPHY       
+-------------------*/
+
+.ms-width {
+    max-width: calc(100% / 3);
+}
