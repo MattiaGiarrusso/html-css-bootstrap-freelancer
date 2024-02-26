@@ -58,6 +58,17 @@
     background-color: #3A546D;
 }
 
+.ms-btn-download {
+    background-color: #1ABC9C;
+    border: 1px solid white;
+}
+
+.ms-btn-download:hover {
+    background-color: white;
+    color: #1ABC9C;
+    transition: 0.2s;
+}
+
 /*------------------
     LINKS
 -------------------*/
