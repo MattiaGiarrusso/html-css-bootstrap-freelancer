@@ -14,18 +14,110 @@
     background-color: #3A546D;
 }
 
+.ms-bg-white {
+    background-color: white;
+}
+
+.ms-bg-black {
+    background-color: black;
+}
 /*------------------
     TYPOGRAPHY       
 -------------------*/
+.ms-text-white {
+    color: white;
+}
+
+.ms-text-lightgreen {
+    color: #1ABC9C;
+}
+
+/*------------------
+    IMAGE      
+-------------------*/
+.ms-width {
+    max-width: 300px;
+}
+
+/*------------------
+    DECORATION     
+-------------------*/
+.bar {
+    width: 20%;
+    height: 4px;
+}
+
+/*------------------
+    BUTTONS     
+-------------------*/
+.ms-btn-send {
+    background-color: #1ABC9C;
+}
+
+.ms-btn-send:hover {
+    background-color: #3A546D;
+}
+
+/*------------------
+    LINKS
+-------------------*/
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #1ABC9C;
+    transition: 0.2s;
+}
 
 .ms-style-link {
     list-style: none;
 }
 
+.ms-circle-link {
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+}
 /*------------------
-    TYPOGRAPHY       
+    GRID     
+-------------------*/
+.pic {
+    position: relative;
+}
+
+.pic img {
+    display: block;
+}
+
+.cover-hover {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(71, 91, 82, 0.9);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.2s opacity;
+}
+
+.pic:hover .cover-hover {
+    opacity: 1;
+}
+
+/*------------------
+    FOOTER     
 -------------------*/
 
-.ms-width {
-    max-width: 300px;
+.ms-why {
+    margin-left: -32px;
 }
